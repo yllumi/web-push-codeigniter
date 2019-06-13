@@ -47,7 +47,10 @@ btnSend.addEventListener('click', function(){
 
   let payload = document.getElementById('payload').value
   let subscription = document.getElementById('subscription').value
-  if(subscription === "") alert('subscription JSON harus diisi')
+  if(subscription === "") {
+    alert('subscription JSON harus diisi')
+    return;
+  }
 
   let data = {
     publicKey: publicKey,
