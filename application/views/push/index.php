@@ -11,7 +11,8 @@
 	<!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<style>
-		small {font-style:italic;color:#666;margin: -10px 0 10px;display: block;}
+		small {font-style:italic;color:#666;margin:-10px 0 10px;display:block;}
+		#github-corner {position:absolute;top:0;right:0;}
 	</style>
 </head>
 <body>
@@ -85,6 +86,7 @@
 			</div>
 		</div>
 	</div>
+	<a href="https://github.com/yllumi/web-push-codeigniter" target="_blank" id="github-corner"><img src="<?=base_url();?>github-corner.png" alt="github" width="100px"></a>
 	
 	<script>
 		var base_url = '<?= base_url(); ?>';
